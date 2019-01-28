@@ -1,0 +1,439 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.719);
+    padding: 0;
+    overflow-y: scroll;
+    background: black;
+}
+
+.navbar {
+    background: black;
+    align-items: flex-end;
+    box-shadow: 0 10px 200px 20px rgba(0, 0, 0, 0.753);
+    /* height: 15vh; */
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    background: black;
+    margin: 0%;
+    padding: 0;
+    
+}
+
+.home .container {
+    /* background: red; */
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.home .container img {
+    display: block;
+    
+    margin: 0 auto;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.home .container .hometext {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home .container .hometext h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.1vw;
+    text-align: center;
+}
+
+.home .container .hometext h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.8vw;
+    color: #A5FFEE;
+}
+
+.home .container .hometext p {
+    text-align: center;
+    padding: 3% 15%;
+    line-height: 25px;
+}
+
+.home .container button {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.815);
+    background: #A5FFEE;
+    text-decoration: none;
+    height: 40px;
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+    transition: 300ms linear;
+}
+
+.home .container button:hover {
+    background: rgb(100, 155, 145);
+    transition: 300ms linear;
+    cursor: pointer;
+}
+
+.about .container {
+    background: black;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.about .container h2 {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.1vw;
+    color: #A5FFEE;
+}
+
+.about .container p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about .container button {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.815);
+    background: #A5FFEE;
+    text-decoration: none;
+    height: 40px;
+    width: 120px;
+    transform: translateX(10%);
+    transition: 300ms linear;
+}
+
+.about .container button:hover {
+    background: rgb(100, 155, 145);
+    transition: 300ms linear;
+    cursor: pointer;
+}
+
+.animation .head {
+    background: url('resources/imgs/72cd26e14b7fcba028206a06f10548c0d5174cfc.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.555);
+    height: 40%;
+    padding: 5% 0;
+}
+
+.animation .head .container {
+    text-align: center;
+    height: 100%;
+}
+
+.animation .head .container  h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.2vw;
+    
+}
+
+.animation .head .container h4 {
+    line-height: 0.8vh;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.animation .head .container p {
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+
+.animation .body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.animation .body .container {
+    height: 100%;
+    padding: 5% 0;
+}
+
+.animation .body .container .anim2d,.anim3d,.visualEffects {
+    height: 100%;
+    margin: 5% 0;
+}
+
+.animation .body .container {
+    text-align: center;
+    height: 100%;
+}
+
+.animation .body .container #contactUs {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10%;
+}
+
+.animation .body .container .sm {
+    display: none;
+}
+
+.animation .body .container .text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #A5FFEE;
+    font-size: 2.6rem;
+    letter-spacing: 0.2vw;
+}
+
+.animation .body .container .text h4 {
+    margin-bottom: 10%;
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.animation .body .container .anim3d {
+    margin: 100px 0;
+}
+
+.contact {
+    background: url('resources/imgs/milky_way_stars_mountains_night_germany_bavaria_sky_45888_1920x1080.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.555);
+    height: 100%;
+    width: 100%;
+}
+
+.contact .container {
+    padding: 5% 2%;
+    height: 100%;
+}
+
+.contact .container .text{
+    margin: 20px;
+    text-align: center;
+}
+
+.contact .container .text h2 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+textarea {
+    margin-top: 2%;
+    width: 100%;
+    padding: 1%;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.698);
+}
+
+textarea:focus {
+    background: rgba(192, 199, 198, 0.623);
+    transition: background 500ms ease-in;
+}
+
+.contact .container .form form .form-row #name,#email,#subject {
+    background: transparent;
+    border-radius: 0;
+    border: 2px solid white;
+    color: white;
+}
+
+.contact .container .form form .form-row #name::placeholder,#email::placeholder,#subject::placeholder {
+    color: rgba(255, 255, 255, 0.698);
+}
+
+.contact .container .form form .form-row #name:focus,#email:focus,#subject:focus {
+    outline: none;
+    background: rgba(192, 199, 198, 0.623);
+    transition: background 500ms ease-in;
+}
+
+.btn {
+    background: white;
+    border-radius: 0;
+    width: 100%;
+    transition: 300ms linear;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.671);
+    transition: 300ms linear;
+}
+
+.contact .container .location {
+    width: 50%;
+    float: left;
+    line-height: 5vh;
+}
+
+.contact .container .email {
+    width: 50%;
+    float: right;
+    line-height: 5vh;
+}
+
+.contact .container .email a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.animation iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contact .container .map iframe {
+    width: 100%;
+    height: 40vh;
+    box-shadow: 0 30px 200px 30px rgba(0, 0, 0, 0.753);
+}
+
+.social {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.social p {
+    letter-spacing: 1vw;
+    line-height: 5vh;
+    font-size: 1.2rem;
+    margin-bottom: 0; 
+}
+
+.social p a {
+    text-decoration: none;
+    color: white;
+    transition: 300ms linear;
+}
+
+.social p a:hover {
+    color: rgb(167, 164, 164);
+    transition: 300ms linear;
+}
+
+.banner {
+    width: 100%;
+    font-size: 15px;
+    /* height: 4vh; */
+    background: rgb(29, 27, 27);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner p {
+    margin: 0;
+}
+
+.graphic {
+    background: rgb(34, 32, 32);
+    height: 80%;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.graphic .container h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #A5FFEE;
+    letter-spacing: 0.1vw;
+    font-size: 3rem;
+    margin: 20px;
+    line-height: 3rem;
+}
+
+.graphic .container .text h3 {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.graphic .container .text p {
+    padding-top: 3%;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.graphic .container {
+    padding: 5% 0;
+    height: 80%;
+}
+
+.graphic .container .row {
+    margin: 0;
+    padding: 0;
+}
+
+.graphic .container .carousel {
+    margin: 5% auto;
+    box-shadow: 0 30px 200px 30px rgba(0, 0, 0, 0.753);
+    padding: 0%;
+}
+
+.navbar #brand {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+    .home .container img {
+        padding-top: 20%;
+    }
+
+    .home .container {
+        padding: 0;
+    }
+
+    .animation .body .container .sm {
+        display: block;
+    }
+    .animation .body .container .lg {
+        display: none;
+    }
+    .home .container .hometext h1 {
+        font-size: 3em;
+    }
+    .about .container {
+        padding: 5%;
+    }
+}
