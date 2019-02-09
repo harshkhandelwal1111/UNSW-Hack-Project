@@ -1,0 +1,17 @@
+User-Agent: Googlebot
+Allow: *.js
+Allow: *.css
+
+User-agent: Mediapartners-Google
+Disallow: /
+
+User-agent: Yahoo Pipes 1.0
+Disallow: /
+
+User-agent: 008
+Disallow: /
+
+User-agent: voltron
+Disallow: /
+
+Sitemap: https://www.codepark.in/sitemap.xml
